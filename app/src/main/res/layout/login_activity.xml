@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@drawable/login_background">
+    android:background="@drawable/app_background">
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,8 +35,8 @@
         tools:layout_editor_absoluteY="77dp" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:id="@+id/inputUsername"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -54,8 +54,8 @@
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -72,53 +72,60 @@
         android:padding="15dp"
         android:textSize="20dp" />
 
-    <TextView
-        android:id="@+id/forgot_password"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="346dp"
-        android:padding="5dp"
-        android:text="Forgot Password ?"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/signup_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="521dp"
-        android:text="Sign Up"
-        android:textColor="@color/white"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/login_btn"
-        android:layout_width="247dp"
-        android:layout_height="77dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="295dp"
+        android:layout_height="71dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="411dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="391dp"
         android:height="50dp"
         android:background="@drawable/login_button_background"
         android:text="Login"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="22dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="50dp"
+        android:text="Forgot Password ?"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="194dp"
+        android:text="Don't have an Account?"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginBottom="194dp"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+
 </RelativeLayout>
