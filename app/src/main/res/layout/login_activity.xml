@@ -7,14 +7,29 @@
     tools:context=".LoginActivity"
     android:background="@drawable/login_background">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="70dp"
+        android:text="GymApp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="36dp"
         android:src="@drawable/fit_icon_24"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="77dp" />
@@ -64,11 +79,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="348dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="346dp"
         android:padding="5dp"
         android:text="Forgot Password ?"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/white"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +99,7 @@
         android:layout_marginStart="134dp"
         android:layout_marginTop="521dp"
         android:text="Sign Up"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,6 +117,7 @@
         android:height="50dp"
         android:background="@drawable/login_button_background"
         android:text="Login"
+        android:textColor="@color/white"
         android:textSize="22dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
